@@ -1,0 +1,24 @@
+.primaryButton {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 35px;
+  background: linear-gradient(180deg, #6989fe 0%, #3c64f4 100%);
+  border-radius: 8px;
+  gap: 0.5rem;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+
+.primaryButton:disabled {
+  background: #7b7b7b;
+  cursor: not-allowed;
+}

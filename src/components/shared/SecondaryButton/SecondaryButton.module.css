@@ -1,0 +1,25 @@
+.secondaryButton {
+  font-family: DM Sans;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 33px;
+  background: #f8f8f8;
+  border-radius: 8px;
+  gap: 0.5rem;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  color: #6989fe;
+  cursor: pointer;
+  border: 2px solid #6989fe;
+}
+
+.secondaryButton:disabled {
+  cursor: not-allowed;
+  color: #7b7b7b;
+  border: 2px solid #7b7b7b;
+}
